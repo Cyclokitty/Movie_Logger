@@ -1,0 +1,18 @@
+{
+  "name": "movie_logger",
+  "version": "1.0.0",
+  "description": "Week 1 challenge question from MongoDB Uni course for Node.js devs.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Laura Veee",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "~1.14.2",
+    "consolidate": "~0.13.1",
+    "express": "~4.13.3",
+    "mongodb": "~2.1.3",
+    "nunjucks": "~2.2.0"
+  }
+}

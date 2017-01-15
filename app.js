@@ -47,7 +47,7 @@ MongoClient.connect(url, function(err, db) {
 
   app.get('/logger', function(req, res) {
     db.collection('movies').find({}).toArray(function(err, docs) {
-      res.render('logger', {'logger': docs});
+      res.render('logger', {'movies': docs});
     });
   });
 

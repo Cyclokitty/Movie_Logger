@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -13,6 +13,54 @@
       <input type='text' name='imdb' placeholder='imdb page' value=''/>
       <input type='submit'  value='Submit'/>
     </form>
-    
+
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Laura Veee's Movie Logger</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container-fluid">
+
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12">
+        <h1>Laura Veee's Movie Logger</h1>
+      </div>
+    </div>
+
+
+    <form action='/movies' method='POST'>
+      <div class="form-group">
+        <label>Title</label>
+          <input type='text' name='title' placeholder='Title' value=''/>
+      </div>
+      <div class="form-group">
+        <label>Year</label>
+          <input type='text' name='Year' placeholder='year' value=''/>
+      </div>
+      <div class="form-group">
+        <label>IMDB Page</label>
+          <input type='text' name='imdb' placeholder='IMDB page' value=''/>
+      </div>
+      <div class="form-group">
+          <button type='submit' class='btn btn-success btn-lg' value='Submit'>Submit</button>
+      </div>
+      </div>
+    </form>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
